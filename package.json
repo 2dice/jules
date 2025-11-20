@@ -1,11 +1,11 @@
 {
-  "name": "temp",
+  "name": "jules-vite-react-ts-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc --noEmit && vite build",
     "lint": "eslint .",
     "check": "tsc --noEmit",
     "preview": "vite preview"
